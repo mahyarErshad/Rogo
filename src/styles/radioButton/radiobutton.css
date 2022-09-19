@@ -1,11 +1,7 @@
-
-body {
-    font-family: Raleway;
-  }
-    
+  
   .checkbox-custom, .radio-custom {
       opacity: 0;
-      position: absolute;   
+      position: absolute;
   }
   
   .checkbox-custom, .checkbox-custom-label, .radio-custom, .radio-custom-label {
@@ -30,6 +26,7 @@ body {
       padding: 2px;
       margin-right: 10px;
       text-align: center;
+      transition: all 0.3s ease-in-out 0.1s;
   }
   
   .checkbox-custom:checked + .checkbox-custom-label:before {
@@ -41,12 +38,14 @@ body {
   
   .radio-custom + .radio-custom-label:before {
       border-radius: 50%;
+      margin-left: 0.5rem;
   }
   
   .radio-custom:checked + .radio-custom-label:before {
       content: "\f00c";
       font-family: 'FontAwesome';
-      color: #bbb;
+      color: #fff;
+      background-color: #98C96E;
   }
   
   .checkbox-custom:focus + .checkbox-custom-label, .radio-custom:focus + .radio-custom-label {
