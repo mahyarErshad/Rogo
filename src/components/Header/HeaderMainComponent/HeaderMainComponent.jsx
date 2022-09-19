@@ -2,7 +2,7 @@ import { Box } from '@mui/material'
 import React from 'react'
 import HeaderLoginButton from '../HeaderLoginButton/HeaderLoginButton'
 import HeaderNavigationLink from '../HeaderNavigationLink/HeaderNavigationLink'
-import HeaderLogo from './HeaderLogo'
+import HeaderLogo from '../HeaderLogo/HeaderLogo'
 
 function HeaderMainComponent() {
   return (
