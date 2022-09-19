@@ -1,8 +1,14 @@
+import { Box } from '@mui/system'
 import React from 'react'
 
-function HeaderNavigationLink() {
+function HeaderNavigationLink(props) {
+    const {text} = props
   return (
-    <div>HeaderNavigationLink</div>
+    <>
+    <Box sx={{}} component="a">
+        {text}
+    </Box>
+    </>
   )
 }
 
