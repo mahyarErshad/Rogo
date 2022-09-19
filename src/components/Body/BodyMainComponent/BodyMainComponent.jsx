@@ -1,8 +1,11 @@
 import React from 'react'
+import TicketSearchSection from '../TicketSearchSection/TicketSearchSection'
 
 function BodyMainComponent() {
   return (
-    <div>BodyMainComponent</div>
+    <>
+    <TicketSearchSection />
+    </>
   )
 }
 
