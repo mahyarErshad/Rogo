@@ -34,6 +34,7 @@
       font-family: 'FontAwesome';
       background-color: rebeccapurple;
       color: #fff;
+      transition: all 0.3s ease-in-out 0.1s;
   }
   
   .radio-custom + .radio-custom-label:before {
@@ -46,6 +47,7 @@
       font-family: 'FontAwesome';
       color: #fff;
       background-color: #98C96E;
+      transition: all 0.3s ease-in-out 0.1s;
   }
   
   .checkbox-custom:focus + .checkbox-custom-label, .radio-custom:focus + .radio-custom-label {

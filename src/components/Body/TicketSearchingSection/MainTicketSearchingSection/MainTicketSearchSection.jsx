@@ -8,12 +8,12 @@ function TicketSearchSection() {
   return (
     <>
     <Box sx={{height: "2.5%",backgroundColor: "rgba(0, 0, 0, 0.3)",borderRadius: "35px",zIndex: "0"}}>
-      <Box sx={{width: "1260px",backgroundColor: "#fff", borderRadius:"30px",padding: "25px"}}>
+      <Box sx={{width: "1260px",backgroundColor: "#fff", borderRadius:"30px",padding: "25px",display:"flex", flexDirection:"column"}}>
         <Box sx={{width:"97%",borderRadius: "15px",padding: "20px",background: "#f6f6f6",display:"flex",justifyContent:"Space-between",flexDirection:"row-reverse"}}>
           <TicketSearchingButtonGroup />
           <TicketSearchingRadioButton />
-          <TicketSearchingInputs />
         </Box>
+          <TicketSearchingInputs />
       </Box>
     </Box>
     </>
