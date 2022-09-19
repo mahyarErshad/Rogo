@@ -1,9 +1,9 @@
 import React from 'react'
 
-function TicketSearchSectionj() {
+function TicketSearchSection() {
   return (
     <div>TicketSearchSectionj</div>
   )
 }
 
-export default TicketSearchSectionj
+export default TicketSearchSection
