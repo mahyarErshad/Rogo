@@ -18,6 +18,7 @@
     transition: all 200ms ease-in-out;
     overflow: hidden;
     position: relative;
+    margin-bottom: 2rem;
   }
   .TicketSearchButton::after{
     content: '';
