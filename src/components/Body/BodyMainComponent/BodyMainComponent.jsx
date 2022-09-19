@@ -1,5 +1,5 @@
 import React from 'react'
-import TicketSearchSection from '../TicketSearchSection/TicketSearchSection'
+import TicketSearchSection from '../TicketSearchSectionj/TicketSearchSection'
 
 function BodyMainComponent() {
   return (
