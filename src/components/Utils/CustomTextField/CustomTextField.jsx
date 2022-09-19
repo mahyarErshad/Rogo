@@ -11,7 +11,7 @@ export default function CustomTextField(props) {
     },
     '& label.Mui-focused': {
       right:"-25px",
-      color:"#000"
+      color:"red"
     },
     '& .MuiInput-underline:after': {
       borderBottomColor: 'green',
