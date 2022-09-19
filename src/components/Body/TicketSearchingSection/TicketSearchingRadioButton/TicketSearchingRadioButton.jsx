@@ -1,29 +1,21 @@
-import * as React from 'react';
-import { pink } from '@mui/material/colors';
-import Radio from '@mui/material/Radio';
 import { Box } from '@mui/system';
+import React from 'react';
+import "../../../../styles/radioButton/radiobutton.css"
 
 export default function TicketSearchingRadioButton() {
-  const [selectedValue, setSelectedValue] = React.useState("oneWay");
-
-  const handleChange = (event) => {
-    setSelectedValue(event.target.value);
-  };
-
-  const controlProps = (item) => ({
-    checked: selectedValue === item,
-    onChange: handleChange,
-    value: item,
-    name: 'color-radio-button-demo',
-    inputProps: { 'aria-label': item },
-  });
 
   return (
     <>
-    <Box sx={{display:"flex",justifyContent:"center",alignItems:"center"}}>
-      <Radio {...controlProps('oneWay')} />
-      <Radio {...controlProps('twoWays')} />
+    <Box dir="rtl" sx={{display:"flex",flexDirection:"row"}}>
+    <Box>
+        <Box component="input" id="radio-1" className="radio-custom" name="radio-group" type="radio" checked />
+            <label for="radio-1" className="radio-custom-label">یک طرفه</label>
+        </Box>
+    <Box>
+        <Box component="input" id="radio-2" className="radio-custom"name="radio-group" type="radio" />
+            <label for="radio-2" className="radio-custom-label">رفت و برگشت</label>
+        </Box>
     </Box>
-    </>
+        </>
   );
 }
