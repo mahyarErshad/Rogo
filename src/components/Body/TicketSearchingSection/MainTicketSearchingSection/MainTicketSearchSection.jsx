@@ -1,6 +1,6 @@
-import { ButtonBase } from '@mui/material'
 import { Box } from '@mui/system'
 import React from 'react'
+import TicketSearchButton from '../../../Utils/TicketSearchButton/TicketSearchButton'
 import TicketSearchingButtonGroup from '../TicketSearchingButtonGroup/TicketSearchingButtonGroup'
 import TicketSearchingInputs from '../TicketSearchingInputs/TicketSearchingInputs'
 import TicketSearchingRadioButton from '../TicketSearchingRadioButton/TicketSearchingRadioButton'
@@ -19,7 +19,7 @@ function TicketSearchSection() {
           <TicketSearchingInputs inputWidth="155px" containerWidth="403px" text1="تاریح رفت" text2="تاریح برگشت" />
           <TicketSearchingInputs inputWidth="198px" containerWidth="282px" text1="تعداد مسافر" text2="icon" />
         </Box>
-        
+        <TicketSearchButton />
       </Box>
     </Box>
     </>

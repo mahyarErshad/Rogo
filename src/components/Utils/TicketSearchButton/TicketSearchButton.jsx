@@ -1,15 +1,12 @@
-import { ButtonBase } from '@mui/material'
 import { Box } from '@mui/system'
 import React from 'react'
+import "../../../styles/TicketSearchButton/TicketSearchButton.css"
 
 function TicketSearchButton() {
   return (
     <>
-        <ButtonBase>
-          <Box>
-
-          </Box>
-        </ButtonBase>
+        <Box className="TicketSearchButton" >
+        </Box>
     </>
   )
 }

@@ -1,0 +1,41 @@
+
+  .TicketSearchButton{
+    height: 57px;
+    background-color: #31537c;
+    background-image: -webkit-gradient(linear, right top, left top, color-stop(19%, #31537c), to(#213957));
+    background-image: linear-gradient(-90deg, #31537c 19%, #213957 100%);
+    border-radius: 15px;
+    float: left;
+    width: 175px;
+    border: 0px;
+    margin-top: 2rem;
+    color: transparent;
+    font-size: 13px;
+    font-weight: normal;
+    padding: 0 15px;
+    cursor: pointer;
+    -webkit-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+    overflow: hidden;
+position: relative;
+  }
+  .TicketSearchButton::after{
+    content: '';
+    background: rgba(255, 255, 255, 0.15);
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 0;
+    right: 0;
+    -webkit-transform: translate(50%, -50%);
+    transform: translate(50%, -50%);
+    border-radius: 100% 0 0 100%;
+    -webkit-transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    pointer-events: none;
+  }
+  .TicketSearchButton:hover::after{
+    width: 200%;
+height: 1000px;
+background: rgba(255, 255, 255, 0.15);
+  }
