@@ -10,7 +10,7 @@ function TicketSearchSection() {
       <Box sx={{width: "1260px",backgroundColor: "#fff", borderRadius:"30px",padding: "25px"}}>
         <Box sx={{width:"97%",borderRadius: "15px",padding: "20px",background: "#f6f6f6",display:"flex",justifyContent:"Space-between",flexDirection:"row-reverse"}}>
           <TicketSearchingButtonGroup />
-        <TicketSearchingRadioButton />
+          <TicketSearchingRadioButton />
         </Box>
       </Box>
     </Box>
