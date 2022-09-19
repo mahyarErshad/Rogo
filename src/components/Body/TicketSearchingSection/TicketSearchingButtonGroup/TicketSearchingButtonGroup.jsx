@@ -17,7 +17,7 @@ function TicketSearchingButtonGroup() {
     }, [isButtonActive])
   return (
     <>
-    <Box sx={{transition: "all 0.3s ease-in-out 0.01s",backgroundColor:"#fff",display:"flex",flexDirection:"row-reverse"}}>
+    <Box sx={{transition: "all 0.3s ease-in-out 0.01s",borderRadius:"100px",backgroundColor:"#fff",display:"flex",flexDirection:"row-reverse"}}>
         <Box onClick={()=> setIsButtonActive("interior")}>
         <TicketSearchingButton isActive={isInteriorButtonActive} text="پرواز داخلی" />
         </Box>
