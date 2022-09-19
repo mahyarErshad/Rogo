@@ -10,7 +10,13 @@ function HeaderMainComponent() {
           <Box sx={{display:"flex",alignItems:"center", justifyContent:"space-between",position:"relative",zIndex:"9",width:"1260px",height:"92px",mx:"auto",mt:"2rem"}}>
           <HeaderLogo />
           <Box sx={{display:"flex",flexDirection:"row",gap:"1.2rem"}}>
+          <Box sx={{display:"flex",gap:"0.2rem",flexDirection:"row-reverse"}}>
           <HeaderNavigationLink text="صفحه اصلی" />
+          <HeaderNavigationLink text="پیگیری بلیط" />
+          <HeaderNavigationLink text="مجله روگو" />
+          <HeaderNavigationLink text="سوالات متداول" />
+          <HeaderNavigationLink text="تماس با ما" />
+          </Box>
           <HeaderLoginButton />
           </Box>
           </Box>
