@@ -16,6 +16,7 @@ function TicketSearchSection() {
         <Box sx={{display:"flex",flexDirection:"row-reverse", gap:"0.5rem"}}>
           <TicketSearchingInputs inputWidth="190px" containerWidth="504px" text1="مبدا" text2="مقصد" />
           <TicketSearchingInputs inputWidth="155px" containerWidth="403px" text1="تاریح رفت" text2="تاریح برگشت" />
+          <TicketSearchingInputs inputWidth="198px" containerWidth="282px" text1="تعداد مسافر" text2="icon" />
         </Box>
       </Box>
     </Box>
