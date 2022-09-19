@@ -1,6 +1,7 @@
 import { Box } from '@mui/system'
 import React from 'react'
 import TicketSearchingButtonGroup from '../TicketSearchingButtonGroup/TicketSearchingButtonGroup'
+import TicketSearchingInputs from '../TicketSearchingInputs/TicketSearchingInputs'
 import TicketSearchingRadioButton from '../TicketSearchingRadioButton/TicketSearchingRadioButton'
 
 function TicketSearchSection() {
@@ -11,6 +12,7 @@ function TicketSearchSection() {
         <Box sx={{width:"97%",borderRadius: "15px",padding: "20px",background: "#f6f6f6",display:"flex",justifyContent:"Space-between",flexDirection:"row-reverse"}}>
           <TicketSearchingButtonGroup />
           <TicketSearchingRadioButton />
+          <TicketSearchingInputs />
         </Box>
       </Box>
     </Box>
