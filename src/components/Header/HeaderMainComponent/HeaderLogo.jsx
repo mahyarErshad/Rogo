@@ -1,8 +1,11 @@
+import { Box } from '@mui/system'
 import React from 'react'
 
 function HeaderLogo() {
   return (
-    <div>HeaderLogo</div>
+    <Box component="img" src="https://rogo.ir/assets/images/logo-persian.png" alt="logo" />
+
+
   )
 }
 
