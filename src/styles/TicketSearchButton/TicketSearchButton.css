@@ -17,7 +17,7 @@
     -webkit-transition: all 200ms ease-in-out;
     transition: all 200ms ease-in-out;
     overflow: hidden;
-position: relative;
+    position: relative;
   }
   .TicketSearchButton::after{
     content: '';
@@ -33,9 +33,9 @@ position: relative;
     -webkit-transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     pointer-events: none;
-  }
-  .TicketSearchButton:hover::after{
-    width: 200%;
+}
+.TicketSearchButton:hover::after{
+width: 200%;
 height: 1000px;
 background: rgba(255, 255, 255, 0.15);
   }
