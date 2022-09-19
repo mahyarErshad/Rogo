@@ -14,8 +14,8 @@ function TicketSearchSection() {
           <TicketSearchingRadioButton />
         </Box>
         <Box sx={{display:"flex",flexDirection:"row-reverse", gap:"0.5rem"}}>
-          <TicketSearchingInputs text1="مبدا" text2="مقصد" />
-          <TicketSearchingInputs text1="تاریح رفت" text2="تاریح برگشت" />
+          <TicketSearchingInputs inputWidth="190px" containerWidth="504px" text1="مبدا" text2="مقصد" />
+          <TicketSearchingInputs inputWidth="155px" containerWidth="403px" text1="تاریح رفت" text2="تاریح برگشت" />
         </Box>
       </Box>
     </Box>
