@@ -1,12 +1,13 @@
-import { Box } from '@mui/material'
+import { Box, Typography } from '@mui/material'
 import PermIdentityIcon from '@mui/icons-material/PermIdentity';
 import React from 'react'
 
 function HeaderLoginButton() {
   return (
     <>
-    <Box dir="rtl" component="span" sx={{alignSelf: "center", border: "1.5px solid rgba(255, 255, 255, 0.42)", color: "#fff",padding: "9px 0px 9px 18px",borderRadius: "10px",position: "relative",overflow: "hidden",transition: "all 0.3s ease-in-out 0.1s", cursor:"pointer","&:hover":{border:"1.5px solid #fff"}}}>
-        <PermIdentityIcon sx={{color:"#fff", width:"45px",height:"22px"}} />
+    <Box dir="rtl" component="span" sx={{display:"flex",flexDirection:"row",mt:"1rem",justifyContent:"center",alignItems:"center" ,width:"160px",height:"28px",alignSelf: "center", border: "1.5px solid rgba(255, 255, 255, 0.42)", color: "#fff",padding: "9px 0px 9px 18px",borderRadius: "10px",transition: "all 0.3s ease-in-out 0.1s", cursor:"pointer","&:hover":{border:"1.5px solid #fff"}}}>
+        <PermIdentityIcon sx={{color:"#fff", width:"50px",height:"25px"}} />
+        <Typography sx={{color:"#fff",fontSize: "1.2em"}}>ورود / عضویت</Typography>
     </Box>
     </>
   )
