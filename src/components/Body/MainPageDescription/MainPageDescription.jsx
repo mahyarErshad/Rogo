@@ -8,9 +8,10 @@ function MainPageDescription() {
   const [seeMore, setSeeMore] = useState(false)
   const containerHeight = seeMore ? "fit-content" : "276px"
   const descriptionStyles = {mx:"1rem",mb:"1.2rem",fontSize: "1.1em", color: "#1f2126", lineHeight: "2.85",  textAlign: "justify", textJustify: "inter-word"}
+  const mb = seeMore ? "50rem" : "8rem"
   return (
     <>
-    <Box sx={{width:"1260px", height:"200px", borderRadius:"28px", backgroundColor:"#0b839d", mt:"4rem", display:"flex", justifyContent:"center", mb:"8rem"}}>
+    <Box sx={{width:"1260px", height:"200px", borderRadius:"28px", backgroundColor:"#0b839d", mt:"4rem", display:"flex", justifyContent:"center", mb}}>
         <Box sx={{width:"1224px", height:containerHeight, backgroundColor:"#fff",display:"flex", flexDirection:"column", alignItems:"flex-end", boxShadow: "0px 9px 9px 0px rgba(0, 0, 0, 0.05)", borderRadius: "0 0 20px 20px"}}>
           <SeeMoreText title="بلیط هواپیما" 
           description={<Typography sx={descriptionStyles} dir="rtl" variant='p'>
