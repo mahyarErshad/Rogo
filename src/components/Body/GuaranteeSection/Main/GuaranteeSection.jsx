@@ -15,9 +15,9 @@ import guaranteeSectionBanner from "../../../../assets/images/guaranteeSection/g
 function GuaranteeSection() {
   return (
     <>
-    <Box sx={{width: "1110px",height: "7px", backgroundColor: "#fff", position: "relative", overflow: "hidden", borderRadius: "30px 30px 0 0", background: `url(${guaranteeShadow}) no-repeat center center #fff`,  backgroundPositionY: "center", backgroundSize: "90% 65px"}}>
+    <Box sx={{width: "1110px", height: "7px", backgroundColor: "#fff", position: "relative", overflow: "hidden", borderRadius: "30px 30px 0 0", background: `url(${guaranteeShadow}) no-repeat center center #fff`,  backgroundPositionY: "center", backgroundSize: "90% 65px"}}>
     </Box>
-    <Box sx={{width: "1350px", height:"100px", mt:"1rem", display:"flex",alignItems:"center",justifyContent:"flex-start",flexDirection:"row-reverse", gap:"1rem"}}>
+    <Box sx={{width: "1350px", zIndex:"1", height:"100px",backgroundColor: "#fff", mt:"1rem", display:"flex",alignItems:"center",justifyContent:"flex-start",flexDirection:"row-reverse", gap:"1rem"}}>
       <GuaranteeCards image={support} redImage={redSupport} title="پشتیبانی ۲۴ ساعته" description="حتی در روزهای تعطیل" hoverDescription="راه های تماس" />
       <GuaranteeCards image={privacy} redImage={redPrivacy} title="بدون نیاز به ثبت نام" description="ارسال بلیط به تلفن همراه و ایمیل" hoverDescription="توضیحات بیشتر" />
       <GuaranteeCards image={canceling} redImage={redCanceling} title="گارانتی کنسلی پرواز" description="تا لحظه ورود به هواپیما" hoverDescription="انواع کنسلی و ضمانت ها" />
