@@ -10,6 +10,7 @@ import canceling from "../../../../assets/images/guaranteeSection/canceling.PNG"
 import redCanceling from "../../../../assets/images/guaranteeSection/redCanceling.PNG"
 import covering from "../../../../assets/images/guaranteeSection/covering.PNG"
 import redCovering from "../../../../assets/images/guaranteeSection/redCovering.PNG"
+import guaranteeSectionBanner from "../../../../assets/images/guaranteeSection/guaranteeSectionBanner.jpg"
 
 function GuaranteeSection() {
   return (
@@ -22,6 +23,7 @@ function GuaranteeSection() {
       <GuaranteeCards image={canceling} redImage={redCanceling} title="گارانتی کنسلی پرواز" description="تا لحظه ورود به هواپیما" hoverDescription="انواع کنسلی و ضمانت ها" />
       <GuaranteeCards image={covering} redImage={redCovering} title="پوشش سراسری ایرلاین ها" description="پوشش کامل بلیط چارتری و سیستمی" hoverDescription="ایرلاین های تحت پوشش" />
     </Box>
+    <Box sx={{width:"1260px", height:"195px", boxShadow: "0 8px 11px 0 #00000011", cursor: "pointer", transition: "all .3s ease-in-out .1s", borderRadius: "20px", "&:hover": {transform:"translateY(-2px)"}}} component="img" src={guaranteeSectionBanner} alt="banner" />
     </>
   )
 }
