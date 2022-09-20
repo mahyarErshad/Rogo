@@ -26,6 +26,9 @@ function MainPageAirLines() {
             <AirLineCard image={caspian} text=" [ IV ] هواپیمایی کاسپین" />
             <AirLineCard image={kish} text=" [ IV ] هواپیمایی کیش ایر" />
         </Box>
+        <Box sx={{alignSelf:"flex-start"}}>
+
+        </Box>
     </Box>
     </>
   )
