@@ -9,7 +9,7 @@ function GuaranteeCards(props) {
 
   return (
     <div onMouseEnter={()=> setIsHover(true)} onMouseLeave={()=> setIsHover(false)}>
-    <Box sx={{width:"302px", display:"flex",alignItems:"center",justifyContent:"center",flexDirection:"row-reverse",backgroundColor: "#fff"}}>
+    <Box sx={{width:"302px",cursor:"pointer", display:"flex",alignItems:"center",justifyContent:"center",flexDirection:"row-reverse",backgroundColor: "#fff"}}>
         <Box sx={{transition: "all 0.1s linear 0.1s", transform }} component="img" src={isHover ? redImage : image } alt="guarantee" />
             <Box sx={{display:"flex",alignItems:"center",justifyContent:"center", flexDirection:"column"}}>
                 <Typography sx={{fontSize:"1.1rem", fontWeight:"bold"}} variant='h5'>{title}</Typography>
