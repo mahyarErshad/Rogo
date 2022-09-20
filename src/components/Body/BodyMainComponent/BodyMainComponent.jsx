@@ -1,6 +1,6 @@
 import { Box } from '@mui/system'
 import React from 'react'
-import GuaranteeSection from '../GuaranteeSection/GuaranteeSection'
+import GuaranteeSection from '../GuaranteeSection/Main/GuaranteeSection'
 import TicketSearchSection from '../TicketSearchingSection/MainTicketSearchingSection/MainTicketSearchSection'
 
 function BodyMainComponent() {
