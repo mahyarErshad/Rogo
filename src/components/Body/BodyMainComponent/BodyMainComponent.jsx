@@ -8,7 +8,7 @@ import TicketSearchSection from '../TicketSearchingSection/MainTicketSearchingSe
 function BodyMainComponent() {
   return (
     <>
-    <Box sx={{display:"flex",width:"100%",flexDirection:"column", alignItems:"center", justifyContent:"center",mt:"11.5rem"}}>
+    <Box component="main" sx={{display:"flex",width:"100%",flexDirection:"column", alignItems:"center", justifyContent:"center",mt:"11.5rem"}}>
     <TicketSearchSection />
     <GuaranteeSection />
     <MainPageDescription />
