@@ -14,7 +14,7 @@ function MainPageAirLines() {
             <Typography variant="h2" sx={{fontWeight: "100", fontSize: "1.4em", color:"#1f2126"}}>ایرلاین های طرف قرارداد با روگو</Typography>
         </Box>
         <Box>
-            <AirLineCard image={iranAir} />
+            <AirLineCard image={iranAir} text=" [ ZV ] هواپیمایی زاگرس" />
         </Box>
     </Box>
     </>
