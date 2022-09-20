@@ -8,6 +8,7 @@ import taban from "../../../../assets/images/mainPageAirlines/taban.PNG"
 import mahan from "../../../../assets/images/mainPageAirlines/mahan.PNG"
 import caspian from "../../../../assets/images/mainPageAirlines/kaspian.PNG"
 import kish from "../../../../assets/images/mainPageAirlines/kishAir.PNG"
+import seeAllAirlines from "../../../../assets/images/mainPageAirlines/seeAllAirlines.PNG"
 import AirLineCard from '../AirLineCard/AirLineCard'
 
 function MainPageAirLines() {
@@ -26,8 +27,9 @@ function MainPageAirLines() {
             <AirLineCard image={caspian} text=" [ IV ] هواپیمایی کاسپین" />
             <AirLineCard image={kish} text=" [ IV ] هواپیمایی کیش ایر" />
         </Box>
-        <Box sx={{alignSelf:"flex-start"}}>
-          <Box component="img" 
+        <Box sx={{alignSelf:"flex-start", cursor:"pointer", borderBottom:"dashed 1px #213957", display:"flex" , justifyContent:"center", alignItems:"center", flexDirection:"row-reverse", gap:"0.5rem", transition: "all 0.3s ease-in-out 0.1s",  "&:hover":{gap:"0.7rem"} }}>
+          <Box component="img" src={seeAllAirlines} alt="مشاهده همه" />
+          <Typography sx={{color: "#31537C", fontSize:"1.5rem", "&:hover":{color: "#213957"}}} variant='h5'>مشاهده لیست کامل ایرلاین ها</Typography> 
         </Box>
     </Box>
     </>
