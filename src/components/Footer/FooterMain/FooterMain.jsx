@@ -6,8 +6,9 @@ function FooterMain() {
   return (
     <>
     <Box component="footer" sx={{backgroundColor:"#f9f9f9", borderRadius:"10px", width: "100%", display:"flex", alignItems:"center", justifyContent:"center",flexDirection:"row-reverse", mx:"auto", transform: "translateY(-60px)"}}>
-      <Box sx={{width:"50%" , mx:"3rem", mb:"2rem"}}>
-        <FooterNavigationLink title="دسترسی سریع ..." navLinks={["صفحه اصلی", "aswed"]} />
+      <Box sx={{width:"50%" ,display:"flex", flexDirection:"row-reverse", gap:{lg:"7rem"}, mx:"3rem", mb:"2rem", marginRight:{lg:"17%"}}}>
+        <FooterNavigationLink title="دسترسی سریع ..." navLinks={["صفحه اصلی", "درباره ما" , "تماس با ما", "مجله روگو", "قوانین و مقررات", "دریافت اپلیکیشن", "ایرلاینهای طرف قرارداد", "استرداد بلیط"]} />
+        <FooterNavigationLink title="برای مطالعه بیشتر ..." navLinks={["خرید آنلاین بلیط هواپیما", "خرید بلیط هواپیما" , "خرید بلیط چارتر", "بلیط ارزان هواپیما", "بلیط لحظه آخری"]} />
       </Box>
       <Box sx={{width:"50%"}}>
 
