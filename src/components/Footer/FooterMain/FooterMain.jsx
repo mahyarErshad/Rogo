@@ -3,6 +3,8 @@ import React, { memo } from 'react'
 import FooterNavigationLink from '../FooterNavigationLink/FooterNavigationLink'
 import clock from "../../../assets/images/footerImages/clock.PNG"
 import FooterButtonBase from '../FooterButtonBase/FooterButtonBase'
+import phone from "../../../assets/images/footerImages/phone.PNG"
+import hoveredPhone from "../../../assets/images/footerImages/hoveredPhone.PNG"
 
 function FooterMain() {
   return (
@@ -17,8 +19,11 @@ function FooterMain() {
         </Box>
       </Box>
       <Box component="img" src={clock} alt="clock" />
-      <Box sx={{width:"45%"}}>
-        <FooterButtonBase />
+      <Box dir="rtl" sx={{width:"45%", display:"flex", gap:"1.5rem", flexDirection:"column"}}>
+        <FooterButtonBase redText="پشتیبانی تلفنی" blackText="۰۲۱۷۷۹۱۲" image={phone} hoveredImage={hoveredPhone}  />
+        <FooterButtonBase redText="پشتیبانی تلفنی" blackText="۰۲۱۷۷۹۱۲" image={phone} hoveredImage={hoveredPhone}  />
+        <FooterButtonBase redText="پشتیبانی تلفنی" blackText="۰۲۱۷۷۹۱۲" image={phone} hoveredImage={hoveredPhone}  />
+        <FooterButtonBase redText="پشتیبانی تلفنی" blackText="۰۲۱۷۷۹۱۲" image={phone} hoveredImage={hoveredPhone}  />
       </Box>
     </Box>
     </>
