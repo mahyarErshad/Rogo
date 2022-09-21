@@ -1,12 +1,15 @@
 import { Typography } from '@mui/material'
 import { Box } from '@mui/system'
 import React, { memo } from 'react'
+import bazar from "../../../assets/images/footerImages/bazar.png"
+import MarketPlaceButton from '../../Utils/MarketPlaceButton/MarketPlaceButton'
 
 function FooterInformations() {
+    const wrapperStyle = { display:"flex", flexDirection:"column", alignItems:"flex-end"}
   return (
     <>
-    <Box sx={{width:"100%" , backgroundColor:"#ECECEC", transform: "translateY(-84px)", display:"flex", flexDirection:"row-reverse"}}>
-        <Box sx={{width:"50%", display:"flex", flexDirection:"column", alignItems:"flex-end", px:"16.2%", py:"1.3rem", gap:"1.3rem"}}>
+    <Box sx={{width:"100%" , backgroundColor:"#ECECEC", py:"1rem", transform: "translateY(-84px)", display:"flex",gap:"1rem", flexDirection:"row-reverse"}}>
+        <Box sx={{...wrapperStyle , paddingRight:"15%", width:"640px", gap:"1.3rem"}}>
             <Typography variant='h3' sx={{color: "#747577", fontWeight: "bold", fontSize: "1.1em"}}>
             خرید آنلاین بلیط هواپیما 
             </Typography>
@@ -14,8 +17,16 @@ function FooterInformations() {
             روگو، سامانه آنلاین خرید بلیط هواپیما از هر جای دنیا به هر جای دنیاست که به در آن واحد به شما امکان بررسی و خرید پرواز های همه ایرلاین ها دنیا را می دهد. تمامی بلیط های سیستمی و چارتری خریداری شده در روگو شامل بیمه لغو پرواز و پشتیبانی تا لحظه سوار شدن به هواپیما هستند. 
             </Typography>
         </Box>
-        <Box sx={{width:"50%"}}>
-
+        <Box sx={{...wrapperStyle , gap:"0.7rem", backgroundColor:"#F6F6F6", mt:"0.8rem"}}>
+            <Box sx={{background: "#e60f44", borderRadius: "17px", padding: "15px 20px", display:"flex", height:"70px", flexDirection:"column", width:"600px", justifyContent:"center", alignItems:"flex-end"}}>
+                <Typography dir="rtl" variant="p" sx={{color: "#fff", fontSize: "1em"}}>
+                    راستی، یه هواپیما تو جیبت داری
+                </Typography>
+                <Typography dir="rtl" variant="p" sx={{color: "#fff", opacity: "0.8", fontSize: "0.9em", padding: "2px 0", lineHeight: "2"}}>
+                اپلیکیشن روگو با پوشش سراسری بلیط چارتر و سیستمی و کاربری آسان و پشتیبانی 24 ساعته، فرایند خرید بلیط هواپیما را به تجربه ای مطمئن و لذت بخش تبدیل می کند. 
+                </Typography>
+            </Box>
+            <MarketPlaceButton image={bazar} />
         </Box>
     </Box>
     </>
