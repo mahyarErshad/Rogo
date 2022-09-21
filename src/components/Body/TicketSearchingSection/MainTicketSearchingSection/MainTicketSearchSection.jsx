@@ -1,5 +1,5 @@
 import { Box } from '@mui/system'
-import React from 'react'
+import React, { memo } from 'react'
 import TicketSearchButton from '../../../Utils/TicketSearchButton/TicketSearchButton'
 import TicketSearchingButtonGroup from '../TicketSearchingButtonGroup/TicketSearchingButtonGroup'
 import TicketSearchingInputs from '../TicketSearchingInputs/TicketSearchingInputs'
@@ -26,4 +26,4 @@ function TicketSearchSection() {
   )
 }
 
-export default TicketSearchSection
+export default memo(TicketSearchSection)

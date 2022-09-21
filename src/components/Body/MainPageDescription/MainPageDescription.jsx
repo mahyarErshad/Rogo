@@ -1,6 +1,6 @@
 import { Typography } from '@mui/material'
 import { Box } from '@mui/system'
-import React, { useState } from 'react'
+import React, { memo, useState } from 'react'
 import SeeMoreButton from '../../Utils/SeeMoreButton/SeeMoreButton'
 import SeeMoreText from '../../Utils/SeeMoreText/SeeMoreText'
 
@@ -47,4 +47,4 @@ function MainPageDescription() {
   )
 }
 
-export default MainPageDescription
+export default memo(MainPageDescription)

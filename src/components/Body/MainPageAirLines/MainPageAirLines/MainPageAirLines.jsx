@@ -1,6 +1,6 @@
 import { Typography } from '@mui/material'
 import { Box } from '@mui/system'
-import React from 'react'
+import React, { memo } from 'react'
 import redAirplane from "../../../../assets/images/mainPageAirlines/redAirplane.png"
 import iranAir from "../../../../assets/images/mainPageAirlines/iranAir.PNG"
 import zagros from "../../../../assets/images/mainPageAirlines/zagros.PNG"
@@ -36,4 +36,4 @@ function MainPageAirLines() {
   )
 }
 
-export default MainPageAirLines
+export default memo(MainPageAirLines)

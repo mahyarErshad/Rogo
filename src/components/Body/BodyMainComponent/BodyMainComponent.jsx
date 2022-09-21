@@ -1,5 +1,5 @@
 import { Box } from '@mui/system'
-import React from 'react'
+import React, { memo } from 'react'
 import GuaranteeSection from '../GuaranteeSection/Main/GuaranteeSection'
 import MainPageAirLines from '../MainPageAirLines/MainPageAirLines/MainPageAirLines'
 import MainPageDescription from '../MainPageDescription/MainPageDescription'
@@ -18,4 +18,4 @@ function BodyMainComponent() {
   )
 }
 
-export default BodyMainComponent
+export default memo(BodyMainComponent)

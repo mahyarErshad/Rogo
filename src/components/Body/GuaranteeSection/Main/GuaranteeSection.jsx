@@ -1,5 +1,5 @@
 import { Box } from '@mui/material'
-import React from 'react'
+import React, { memo } from 'react'
 import guaranteeShadow from "../../../../assets/images/guaranteeSection/GguaranteeShadow.png"
 import GuaranteeCards from '../GuaranteeCards/GuaranteeCards'
 import support from "../../../../assets/images/guaranteeSection/support.PNG"
@@ -28,4 +28,4 @@ function GuaranteeSection() {
   )
 }
 
-export default GuaranteeSection
+export default memo(GuaranteeSection)
