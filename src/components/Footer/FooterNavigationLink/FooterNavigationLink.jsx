@@ -12,7 +12,7 @@ function FooterNavigationLink(props) {
                 {title}
             </Box>
             { navLinks.map((item) =>{
-              return (<Box dir="rtl" className="footerNavLink" sx={{fontSize:"0.9rem", fontWeight:"100", mt:"0.7rem", transition: "all 0.3s ease-in-out 0.01s", color:"#a6a6a6", "&:hover":{color:"#e60f44", paddingRight:"15px"}}}>
+              return (<Box dir="rtl" className="footerNavLink" sx={{fontSize:"0.9rem", fontWeight:"100", mt:"0.7rem", transition: "all 0.3s ease-in-out 0.01s", color:"#a6a6a6", "&:hover":{color:"#e60f44"}}}>
               {item}
           </Box>)
             }) }
