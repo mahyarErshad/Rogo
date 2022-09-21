@@ -9,6 +9,12 @@ import enamad from "../../../assets/images/footerImages/enamad.png"
 import samandehi from "../../../assets/images/footerImages/samandehi.png"
 import cao from "../../../assets/images/footerImages/cao.png"
 import aira from "../../../assets/images/footerImages/aira.png"
+import facebook from "../../../assets/images/footerImages/facebook.png"
+import youTube from "../../../assets/images/footerImages/youTube.png"
+import twitter from "../../../assets/images/footerImages/twitter.png"
+import aparat from "../../../assets/images/footerImages/aparat.png"
+import telegram from "../../../assets/images/footerImages/telegram.png"
+import instagram from "../../../assets/images/footerImages/instagram.png"
 import passengerRights from "../../../assets/images/footerImages/passenger-rights.svg"
 import MarketPlaceButton from '../../Utils/MarketPlaceButton/MarketPlaceButton'
 import FooterCertifications from '../../Utils/FooterCertifications/FooterCertifications'
@@ -25,6 +31,14 @@ function FooterInformations() {
             <Typography dir="rtl" variant='p' sx={{color: "#747577", fontSize: "1em", lineHeight: "30px", textAlign: "justify"}}>
             روگو، سامانه آنلاین خرید بلیط هواپیما از هر جای دنیا به هر جای دنیاست که به در آن واحد به شما امکان بررسی و خرید پرواز های همه ایرلاین ها دنیا را می دهد. تمامی بلیط های سیستمی و چارتری خریداری شده در روگو شامل بیمه لغو پرواز و پشتیبانی تا لحظه سوار شدن به هواپیما هستند. 
             </Typography>
+            <Box sx={{mt:"3rem", paddingLeft:"4rem", display:"flex", justifyContent:"center", alignItems:"center", gap:"0.5rem", alignSelf:"center"}}>
+                <Box sx={{cursor:"pointer"}} component='img' src={facebook} alt="facebook" />
+                <Box sx={{cursor:"pointer"}} component='img' src={youTube} alt="youTube" />
+                <Box sx={{cursor:"pointer"}} component='img' src={twitter} alt="twitter" />
+                <Box sx={{cursor:"pointer"}} component='img' src={aparat} alt="aparat" />
+                <Box sx={{cursor:"pointer"}} component='img' src={telegram} alt="telegram" />
+                <Box sx={{cursor:"pointer"}} component='img' src={instagram} alt="instagram" />
+            </Box>
         </Box>
         <Box sx={{...wrapperStyle , gap:"0.7rem", backgroundColor:"#F6F6F6", mt:"0.8rem", borderRadius:"10px"}}>
             <Box sx={{background: "#e60f44", borderRadius: "17px", padding: "15px 20px", display:"flex", height:"70px", flexDirection:"column", width:"600px", justifyContent:"center", alignItems:"flex-end"}}>
