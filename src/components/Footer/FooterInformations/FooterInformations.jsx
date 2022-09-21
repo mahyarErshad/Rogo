@@ -6,6 +6,10 @@ import myket from "../../../assets/images/footerImages/myket.png"
 import bazarHovered from "../../../assets/images/footerImages/bazarHovered.png"
 import myketHovered from "../../../assets/images/footerImages/myketHovered.png"
 import enamad from "../../../assets/images/footerImages/enamad.png"
+import samandehi from "../../../assets/images/footerImages/samandehi.png"
+import cao from "../../../assets/images/footerImages/cao.png"
+import aira from "../../../assets/images/footerImages/aira.png"
+import passengerRights from "../../../assets/images/footerImages/passenger-rights.svg"
 import MarketPlaceButton from '../../Utils/MarketPlaceButton/MarketPlaceButton'
 import FooterCertifications from '../../Utils/FooterCertifications/FooterCertifications'
 
@@ -35,8 +39,12 @@ function FooterInformations() {
             <MarketPlaceButton image={bazar} hoveredImage={bazarHovered} />
             <MarketPlaceButton image={myket} hoveredImage={myketHovered} />
             </Box>
-            <Box sx={{display:"flex", alignItems:"center", justifyContent:"flex-start", alignSelf:"center", mb:"0.5rem"}}>
+            <Box sx={{display:"flex", alignItems:"center", justifyContent:"flex-start", marginLeft:"1rem", alignSelf:"flex-start", mb:"0.5rem", flexDirection:"row-reverse", gap:"0.5rem"}}>
                 <FooterCertifications image={enamad} />
+                <FooterCertifications image={samandehi} />
+                <FooterCertifications image={cao} width="110px" />
+                <FooterCertifications image={passengerRights} />
+                <FooterCertifications image={aira} width="90px" />
             </Box>
         </Box>
     </Box>
