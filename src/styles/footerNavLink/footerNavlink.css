@@ -1,0 +1,13 @@
+.footerNavLink::before{
+  -webkit-transition: all 0.3s ease-in-out 0.01s;
+  transition: all 0.3s ease-in-out 0.01s;
+  width: 0px;
+  height: 1px;
+  content: ' ';
+  margin: 3px;
+  background: #e60f44;
+  display: inline-block;
+  }
+.footerNavLink:hover:before{
+  width: 10px;
+}
