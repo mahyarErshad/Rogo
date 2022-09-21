@@ -1,6 +1,6 @@
 import { Typography } from '@mui/material'
 import { Box } from '@mui/system'
-import React from 'react'
+import React, { memo } from 'react'
 
 function HeaderLogo() {
   return (
@@ -13,4 +13,4 @@ function HeaderLogo() {
   )
 }
 
-export default HeaderLogo
+export default memo(HeaderLogo)

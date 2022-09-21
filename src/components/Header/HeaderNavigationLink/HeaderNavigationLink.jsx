@@ -1,5 +1,5 @@
 import { Box } from '@mui/system'
-import React from 'react'
+import React, { memo } from 'react'
 
 function HeaderNavigationLink(props) {
     const {text} = props
@@ -14,4 +14,4 @@ function HeaderNavigationLink(props) {
   )
 }
 
-export default HeaderNavigationLink
+export default memo(HeaderNavigationLink)

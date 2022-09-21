@@ -1,6 +1,6 @@
 import { Box, Typography } from '@mui/material'
 import PermIdentityIcon from '@mui/icons-material/PermIdentity';
-import React from 'react'
+import React, { memo } from 'react'
 
 function HeaderLoginButton() {
   return (
@@ -13,4 +13,4 @@ function HeaderLoginButton() {
   )
 }
 
-export default HeaderLoginButton
+export default memo(HeaderLoginButton)
