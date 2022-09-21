@@ -11,8 +11,8 @@ function FooterNavigationLink(props) {
             <Box sx={{fontSize:"1rem", mt:"1.5rem", fontWeight:"bold", mb:"0.9rem"}} dir="rtl" variant="h5">
                 {title}
             </Box>
-            { navLinks.map((item) =>{
-              return (<Box dir="rtl" className="footerNavLink" sx={{ cursor:"pointer", fontSize:"0.9rem", fontWeight:"100", mt:"1rem", transition: "all 0.3s ease-in-out 0.01s", color:"#a6a6a6", "&:hover":{color:"#e60f44"}}}>
+            { navLinks.map((item, index) =>{
+              return (<Box key={index} dir="rtl" className="footerNavLink" sx={{ cursor:"pointer", fontSize:"0.9rem", fontWeight:"100", mt:"1rem", transition: "all 0.3s ease-in-out 0.01s", color:"#a6a6a6", "&:hover":{color:"#e60f44"}}}>
               {item}
           </Box>)
             }) }
