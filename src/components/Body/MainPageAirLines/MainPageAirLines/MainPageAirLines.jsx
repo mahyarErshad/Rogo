@@ -29,7 +29,7 @@ function MainPageAirLines() {
         </Box>
         <Box sx={{alignSelf:"flex-start", cursor:"pointer", borderBottom:"dashed 1px #213957", display:"flex" , justifyContent:"center", alignItems:"center", flexDirection:"row-reverse", gap:"0.5rem", transition: "all 0.3s ease-in-out 0.1s",  "&:hover":{gap:"0.7rem"} }}>
           <Box component="img" src={seeAllAirlines} alt="مشاهده همه" />
-          <Typography sx={{color: "#31537C", fontSize:"1.5rem", "&:hover":{color: "#213957"}}} variant='h5'>مشاهده لیست کامل ایرلاین ها</Typography> 
+          <Typography sx={{color: "#31537C", fontSize:"1.2em", "&:hover":{color: "#213957"}}} variant='h5'>مشاهده لیست کامل ایرلاین ها</Typography> 
         </Box>
     </Box>
     </>
