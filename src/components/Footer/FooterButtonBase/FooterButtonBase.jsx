@@ -8,7 +8,7 @@ function FooterButtonBase(props) {
     const {redText, blackText, image, hoveredImage} = props
   return (
     <div onMouseEnter={()=> setIsHovered(true)} onMouseLeave={() => setIsHovered(false)} >
-        <Box sx={{display:"flex", width:{lg:"660px"}, minHeight:"54px", flexDirection:"row", justifyContent:"space-between", alignItems:"center"}}>
+        <Box sx={{display:"flex", cursor:"pointer", width:{lg:"660px"}, minHeight:"54px", flexDirection:"row", justifyContent:"space-between", alignItems:"center"}}>
             <Box sx={{display:"flex", gap:"0.5rem", marginRight:"3.5%", flexDirection:"column", justifyContent:"center", alignItems:"flex-start"}}>
                 <Typography sx={{color: "#e60f44", fontSize: "1.1em"}}>
                     { redText }

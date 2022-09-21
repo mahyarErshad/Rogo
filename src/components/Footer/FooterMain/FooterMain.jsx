@@ -15,7 +15,7 @@ import hoveredFaq from "../../../assets/images/footerImages/hoveredFaq.PNG"
 function FooterMain() {
   return (
     <>
-    <Box component="footer" sx={{backgroundColor:"#f9f9f9", cursor:"pointer", borderRadius:"10px", width: "100%", display:"flex", alignItems:"center", justifyContent:"center",flexDirection:"row-reverse", mx:"auto", transform: "translateY(-60px)"}}>
+    <Box component="footer" sx={{backgroundColor:"#f9f9f9", borderRadius:"10px", width: "100%", display:"flex", alignItems:"center", justifyContent:"center",flexDirection:"row-reverse", mx:"auto", transform: "translateY(-60px)"}}>
       <Box sx={{width:"27%", display:"flex", flexDirection:"row-reverse", mb:"2rem", marginRight:{lg:"8%"}}}>
         <Box sx={{width:"50%"}}>
         <FooterNavigationLink title="دسترسی سریع ..." navLinks={["صفحه اصلی", "درباره ما" , "تماس با ما", "مجله روگو", "قوانین و مقررات", "دریافت اپلیکیشن", "ایرلاینهای طرف قرارداد", "استرداد بلیط"]} />
