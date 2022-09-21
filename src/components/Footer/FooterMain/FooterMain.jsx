@@ -2,6 +2,7 @@ import { Box } from '@mui/system'
 import React, { memo } from 'react'
 import FooterNavigationLink from '../FooterNavigationLink/FooterNavigationLink'
 import clock from "../../../assets/images/footerImages/clock.PNG"
+import FooterButtonBase from '../FooterButtonBase/FooterButtonBase'
 
 function FooterMain() {
   return (
@@ -17,7 +18,7 @@ function FooterMain() {
       </Box>
       <Box component="img" src={clock} alt="clock" />
       <Box sx={{width:"45%"}}>
-        
+        <FooterButtonBase />
       </Box>
     </Box>
     </>
