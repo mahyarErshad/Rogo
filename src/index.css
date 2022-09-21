@@ -9,7 +9,7 @@
   font-weight: bold;
 }
 *{
-  font-family: BYekan;
+  font-family: BYekan, sans-serif !important;
 }
 html,body,#root{
   margin: 0;
