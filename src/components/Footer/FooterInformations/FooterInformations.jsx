@@ -5,7 +5,9 @@ import bazar from "../../../assets/images/footerImages/bazar.png"
 import myket from "../../../assets/images/footerImages/myket.png"
 import bazarHovered from "../../../assets/images/footerImages/bazarHovered.png"
 import myketHovered from "../../../assets/images/footerImages/myketHovered.png"
+import enamad from "../../../assets/images/footerImages/enamad.png"
 import MarketPlaceButton from '../../Utils/MarketPlaceButton/MarketPlaceButton'
+import FooterCertifications from '../../Utils/FooterCertifications/FooterCertifications'
 
 function FooterInformations() {
     const wrapperStyle = { display:"flex", flexDirection:"column", alignItems:"flex-end"}
@@ -32,6 +34,9 @@ function FooterInformations() {
             <Box sx={{display:"flex", alignItems:"center", justifyContent:"center", flexDirection:"row-reverse", alignSelf:"center", gap:"1rem"}}>
             <MarketPlaceButton image={bazar} hoveredImage={bazarHovered} />
             <MarketPlaceButton image={myket} hoveredImage={myketHovered} />
+            </Box>
+            <Box sx={{display:"flex", alignItems:"center", justifyContent:"flex-start", alignSelf:"center", mb:"0.5rem"}}>
+                <FooterCertifications image={enamad} />
             </Box>
         </Box>
     </Box>
