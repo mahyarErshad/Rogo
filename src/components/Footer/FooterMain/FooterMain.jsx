@@ -17,8 +17,7 @@ function FooterMain() {
       </Box>
       <Box component="img" src={clock} alt="clock" />
       <Box sx={{width:"45%"}}>
-
-
+        
       </Box>
     </Box>
     </>
